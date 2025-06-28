@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: parallel
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: always
+  profiles:
+    active: local
+
+app:
+  config:
+    list-one-size: 3000 #200000
+    list-two-size: 2999 #100000
